@@ -83,47 +83,6 @@ MaterialApp
    flutter run
    ```
 
-## ⚙️ Configuration
-
-### Personnalisation du Profil
-
-Modifiez les informations dans `lib/main.dart` :
-
-```dart
-// Nom et profession
-Text("Votre Nom"),
-Text("Votre Profession"),
-
-// Statistiques
-_buildStatItem("2.5K", "Followers"),
-_buildStatItem("1.2K", "Following"),
-_buildStatItem("48", "Posts"),
-
-// Coordonnées
-_buildInfoRow(Icons.email_rounded, "votre.email@example.com"),
-_buildInfoRow(Icons.phone_rounded, "+33 X XX XX XX XX"),
-_buildInfoRow(Icons.location_on_rounded, "Votre Ville, Pays"),
-```
-
-### Personnalisation des Couleurs
-
-Modifiez les gradients dans le code :
-
-```dart
-// Gradient de l'AppBar
-gradient: LinearGradient(
-  colors: [Color(0xFF667eea), Color(0xFF764ba2)],
-  begin: Alignment.topLeft,
-  end: Alignment.bottomRight,
-),
-
-// Gradient du background
-gradient: LinearGradient(
-  colors: [Color(0xFFf093fb), Color(0xFFf5576c)],
-  begin: Alignment.topCenter,
-  end: Alignment.bottomCenter,
-),
-```
 
 ## 📁 Structure du Projet
 
@@ -161,81 +120,8 @@ L'application suit les principes du Material Design :
 - Boutons avec états (normal, pressed, hover)
 - Couleurs et typographie cohérentes
 
-## 🎨 Choix de Design
 
-### Palette de Couleurs
 
-- **Primaire** : Violet/Bleu (#667eea - #764ba2)
-- **Secondaire** : Rose/Rouge (#f093fb - #f5576c)
-- **Accent** : Blanc pour les cartes
-- **Texte** : Gris foncé (#2d3436)
 
-### Effets Visuels
 
-- **Gradients** : Pour un look moderne et dynamique
-- **Ombres portées** : Pour créer de la profondeur
-- **Coins arrondis** : Pour un aspect doux et contemporain
-- **Glassmorphism** : Effets de transparence subtils
 
-## 🔧 Dépannage
-
-### Problème : Image ne s'affiche pas
-
-**Solution :**
-1. Vérifiez que le fichier image existe dans `assets/images/`
-2. Vérifiez la configuration dans `pubspec.yaml` (attention à l'indentation)
-3. Exécutez `flutter clean` puis `flutter pub get`
-4. Relancez l'application (pas juste hot reload)
-
-### Problème : Erreur de compilation
-
-**Solution :**
-```bash
-flutter clean
-flutter pub get
-flutter run
-```
-
-## 📚 Ressources
-
-- [Documentation Flutter](https://flutter.dev/docs)
-- [Widget Catalog](https://flutter.dev/docs/development/ui/widgets)
-- [Material Design Guidelines](https://material.io/design)
-- [Dart Language Tour](https://dart.dev/guides/language/language-tour)
-
-## 👨‍💻 Auteur
-
-**Votre Nom**
-- GitHub: [@votre-username](https://github.com/votre-username)
-- Email: votre.email@example.com
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à :
-1. Fork le projet
-2. Créer une branche (`git checkout -b feature/AmazingFeature`)
-3. Commit vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
-
-## 📝 Notes de Développement
-
-### Version 1.0.0 (Date)
-- ✅ Implémentation de l'interface de base
-- ✅ Ajout des gradients et effets visuels
-- ✅ Intégration des informations de contact
-- ✅ Ajout des boutons de réseaux sociaux
-- ✅ Design responsive
-
-### Améliorations Futures
-- [ ] Mode sombre
-- [ ] Animation au scroll
-- [ ] Édition du profil
-- [ ] Intégration d'une API
-- [ ] Galerie de photos
-
----
