@@ -14,12 +14,6 @@
 - 🎯 **Boutons d'Action** : Boutons "Follow" et "Message" interactifs
 - 📱 **Responsive Design** : Interface adaptative pour différentes tailles d'écran
 
-## 🖼️ Captures d'Écran
-
-<p align="center">
-  <img src="screenshots/Capture d'écran 2025-12-09 170024" width="300" alt="Profile Card">
-</p>
-
 ## 🏗️ Architecture
 
 ### Structure des Widgets
