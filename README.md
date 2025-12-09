@@ -17,7 +17,7 @@
 ## 🖼️ Captures d'Écran
 
 <p align="center">
-  <img src="screenshots/profile_card_full.png" width="300" alt="Profile Card">
+  <img src="screenshots/Capture d'écran 2025-12-09 170024" width="300" alt="Profile Card">
 </p>
 
 ## 🏗️ Architecture
